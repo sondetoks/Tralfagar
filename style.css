@@ -1,0 +1,298 @@
+.container{
+    /* background-color: brown; */
+    width: 100%;
+    height: 100vh;
+    
+}
+
+.innercontainer{
+    width: 80%;
+    margin: auto;
+    background-color: white;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4rem;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;    
+}
+
+li{
+    list-style: none;
+    font-family: mulish;
+    font-size: 18px;
+}
+
+li:hover{
+color: #1f1341;
+font-weight: bold;
+cursor: pointer;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.heroText{
+    width: 50%;
+    margin-top: 3rem;
+}
+
+.heroImaget{
+    width: 50%;
+    
+}
+
+.heroImage img{
+    width: 100%;
+}
+
+.heroText h2{
+    width: 90%;
+    color:#000;
+    font-family: mulish;
+    font-size: 48px;
+
+}
+
+
+.heroText p{
+    width: 73%;
+    color:#707987;
+    font-family: mulish;
+    font-size: 21px;
+}
+
+.heroText button{
+    border-radius: 55px;
+    background: #458ff6;
+    color: #fff;
+    font-family: mulish;
+    font-size: 18px; 
+    border:none;
+    padding: .7rem 2rem;
+
+}
+
+button:hover{
+    cursor: pointer;
+    background: rgb(4, 4, 83)
+}
+
+.topservices{
+    text-align:center;
+
+}
+
+.topservices hr{
+    width: 4%;
+}
+.topservices.h4{
+    color:#000;
+    font-family: mulish;
+    font-size: 36px;
+    
+
+}
+
+
+
+
+.topservices.p{
+    color:#000;
+    font-family: mulish;
+    font-size: 22px;
+    
+
+}
+
+.allcards{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5rem;
+    width: 90%;
+    margin: auto;
+    font-family: sans-serif;
+    color: #7d7987;
+    margin-bottom: 15px;
+
+
+}
+
+.card{
+    width: 285px;
+    padding: 3rem 2rem;
+    border-radius: 20px;
+    background: #fff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
+
+}
+
+.card h5{
+    color: #000;
+    font-family: mulish;
+    font-size: 24px;
+
+}
+.card p{
+    color: #707987;
+    font-family: mulish;
+    font-size: 16px;
+    width: 98%
+
+}
+.allcards2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10rem;
+    width: 90%;
+    margin: auto;
+    font-family: sans-serif;
+    color: #7d7987;
+
+}
+
+.card{
+    width: 285px;
+    padding: 3rem 2rem;
+    border-radius: 20px;
+    background: #fff;
+    box-shadow: #458ff6;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 3rem 2rem;
+    
+
+
+}
+
+.card h5{
+    color: #000;
+    font-family: mulish;
+    font-size: 24px;
+
+}
+.card p{
+    color: #707987;
+    font-family: mulish;
+    font-size: 16px;
+    width: 98%
+
+}
+
+.consult{
+    height: 30%
+}
+
+.btn button{
+    border-radius: 60px;
+    margin-top: 5rem;
+    color: rgb(233, 227, 227);
+    font-family: mulish;
+    font-size: 18px; 
+    padding: .7rem 2rem;
+    align-items: center;
+    cursor: pointer;
+    width: px;
+    height: 40px;
+}
+
+.btn{
+    margin: auto;
+    width: 200px;
+    height: 40px;
+}
+
+.image1 img{
+    position: absolute;
+    z-index: -1;
+    margin-left: -9rem;
+    margin-top: -3rem;
+}
+
+.healthcare{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.healthimage img{
+    width: 80%;
+}
+
+.healthtext{
+    width: 40%;
+}
+
+.healthimage{
+    width: 50%;
+}
+
+.healthtext h2{
+    color: black;
+    font-family: mulish;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.healthtext p{
+    color: #707987;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    width: 83%
+}
+
+.healthtext h2{
+    width: 90%;
+}
+
+
+
+.horizontal{
+    width: 20px
+    
+}
+
+.horizontal hr{
+    
+    border-radius: 10%;
+    background: black;
+    color: black;
+    height: 1px;
+}
+
+.healthtext button{
+    border-radius: 60px;
+    /* margin-top: 5rem; */
+    color: rgb(233, 227, 227);
+    font-family: mulish;
+    font-size: 18px; 
+    padding: .7rem 2rem;
+    align-items: center;
+    cursor: pointer;
+    width: px;
+    height: 40px;
+
+}
+
+.download{
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 4rem;
+    display: flex;
+    justify-content: space-between;
+}

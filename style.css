@@ -296,3 +296,50 @@ button:hover{
     display: flex;
     justify-content: space-between;
 }
+.customer{
+    background-color: blueviolet;
+    border-radius: 24px;;
+}
+
+.topcustomer{
+    text-align: center;
+}
+
+.topcustomer hr{
+    width: 56px;
+    height: 2px;
+    border-radius: 6px;
+    background: white;
+}
+
+.topcustomer h1{
+    color: white;
+    font-family: mulish;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+}
+.maincustomer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile{
+    display: flex;
+    /* justify-content: space-between; */
+    width:40px
+
+}
+.profile{
+    padding-left: 1.5rem;
+    width:40px
+
+}
+
+.profiletext{
+    padding-left: 1.5rem;
+    width:40px
+
+}
+
+
